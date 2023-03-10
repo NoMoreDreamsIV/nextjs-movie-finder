@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: #161616;
+    color: white;
+    font-family: Bebas Neue;
+}
+
+.movie-app {
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+.movie-list {
+    display: flex;
+    justify-content: start;
+    padding: 35px;
+}
+
+img {
+    width: 250px;
+    box-shadow: 0px 0px 10px 5px rgb(9, 104, 229);
+}
+
+h1 {
+    color: #E50914;
+}
+
+h1, .input-bar {
+    text-align: center;
+}
+
+.input-bar > input {
+    padding: 8px 12px;
+    outline: none;
+    box-shadow: 0px 0px 10px #E50914;
+}
