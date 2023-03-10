@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import InputBar from "../components/InputBar";
-import MovieList from "../components/movieList"
+import MovieList from "../components/MovieList"
 
 export default function App() {
     const [movies, setMovies] = useState([]);
