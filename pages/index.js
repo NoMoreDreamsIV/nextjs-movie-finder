@@ -7,7 +7,7 @@ export default function App() {
     const [searchValue, setSearch] = useState('');
 
     const getMovies = async (searchValue) => {
-        const url = `http://www.omdbapi.com/?s=${searchValue}&apikey=eb54659f`;
+        const url = `https://www.omdbapi.com/?s=${searchValue}&apikey=eb54659f`;
         const response = await fetch(url),
             responseJson = await response.json();
 
